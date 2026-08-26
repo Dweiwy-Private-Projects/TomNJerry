@@ -1,0 +1,16 @@
+name: TomNJerry
+version: 1.0.0
+main: me.siwannie.tomnjerry.TomNJerry
+api-version: 1.21
+authors: [Siwannie]
+commands:
+  tnj:
+    description: Main command for the Tom and Jerry event.
+    permission: tnj.admin
+permissions:
+  tnj.admin:
+    default: op
+  tnj.tom:
+    default: false
+  tnj.exclude:
+    default: false

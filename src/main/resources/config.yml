@@ -1,0 +1,30 @@
+settings:
+  game-duration-minutes: 60
+  cooldowns:
+    stunner-seconds: 180
+    highlight-seconds: 300
+  sneak:
+    seconds: 8
+    radius: 2.0
+  points:
+    per-cheese: 1
+    survival-bonus: 5
+    swapper-cost: 3
+  countdown:
+    seconds: 10
+
+messages:
+  prefix: "<bold><gradient:#FFB6C1:#FF69B4>Easter Event</gradient></bold> <dark_gray>»</dark_gray> "
+  game_paused: "<prefix><yellow><bold>The game has been paused!</bold></yellow>"
+  game_resumed: "<prefix><green><bold>The game has resumed!</bold></green>"
+  countdown_title: "<red><bold><time></bold></red>"
+
+  sneak_progress: "<yellow>Collecting <target>: </yellow><bar> <gray><percent>%</gray>"
+  sneak_complete_cheese: "<green>+<points> Point! Total Points: <total> | Held Cheese: <held></green>"
+  sneak_complete_powerup: "<green><bold>Powerup Collected!</bold></green>"
+
+  already_found: "<prefix><red>You already collected this piece of cheese!</red>"
+
+  top_header: "\n<gradient:#f6d365:#fda085><st>         </st> Top 10 Mice <st>         </st></gradient>"
+  top_format: "<gray><rank>.</gray> <yellow><player></yellow> <dark_gray>-</dark_gray> <white><score> Points</white>"
+  top_footer: "<gradient:#f6d365:#fda085><st>                                  </st></gradient>\n"
